@@ -7,6 +7,8 @@ if "chapter" not in st.session_state:
     st.session_state.chapter = 0
 if "course" not in st.session_state:
     st.session_state.course = None
+if "answered" not in st.session_state:
+    st.session_state.answered = False
 
 if st.session_state.chapter == 0:
     st.title("Welcome to Python learning guide")
