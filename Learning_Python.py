@@ -2866,7 +2866,7 @@ if st.session_state.chapter == 46:
 if st.session_state.chapter == 47:
     chapter(12, 
             "Great—here's the first task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 1: """, unsafe_allow_html=True)
     
@@ -2956,7 +2956,7 @@ if st.session_state.chapter == 48:
 
     st.code(code58, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch49_next"):
         st.session_state.chapter = 49
@@ -2966,7 +2966,7 @@ if st.session_state.chapter == 48:
 if st.session_state.chapter == 49:
     chapter(13,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 2: """, unsafe_allow_html=True)
     
@@ -3080,7 +3080,7 @@ if st.session_state.chapter == 50:
 
     st.code(code59, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch51_next"):
         st.session_state.chapter = 51
@@ -3090,7 +3090,7 @@ if st.session_state.chapter == 50:
 if st.session_state.chapter == 51:
     chapter(14,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 3: """, unsafe_allow_html=True)
 
@@ -3252,7 +3252,7 @@ if st.session_state.chapter == 52:
 
     st.code(code60, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch53_next"):
         st.session_state.chapter = 53
@@ -3262,7 +3262,7 @@ if st.session_state.chapter == 52:
 if st.session_state.chapter == 53:
     chapter(15,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 4: """, unsafe_allow_html=True)
 
@@ -3376,7 +3376,7 @@ if st.session_state.chapter == 54:
     
     st.code(code61, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch55_next"):
         st.session_state.chapter = 55
@@ -3386,7 +3386,7 @@ if st.session_state.chapter == 54:
 if st.session_state.chapter == 55:
     chapter(16,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 5: """, unsafe_allow_html=True)
 
@@ -3488,7 +3488,7 @@ if st.session_state.chapter == 56:
 
     st.code(code62, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch57_next"):
         st.session_state.chapter = 57
@@ -3498,7 +3498,7 @@ if st.session_state.chapter == 56:
 if st.session_state.chapter == 57:
     chapter(17,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 6: """, unsafe_allow_html=True)
 
@@ -3584,7 +3584,7 @@ if st.session_state.chapter == 58:
             l.loan_date,
             l.returned
         FROM loans l
-         members m ON l.member_id = m.id
+        JOIN members m ON l.member_id = m.id
         JOIN books b ON l.book_id = b.id
          BY l.loan_date
     """)
@@ -3597,7 +3597,7 @@ if st.session_state.chapter == 58:
 
     st.code(code63, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch59_next"):
         st.session_state.chapter = 59
@@ -3607,7 +3607,7 @@ if st.session_state.chapter == 58:
 if st.session_state.chapter == 59:
     chapter(18,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 7: """, unsafe_allow_html=True)
 
@@ -3714,7 +3714,7 @@ if st.session_state.chapter == 60:
 
     st.code(code64, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch61_next"):
         st.session_state.chapter = 61
@@ -3724,7 +3724,7 @@ if st.session_state.chapter == 60:
 if st.session_state.chapter == 61:
     chapter(19,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 8: """, unsafe_allow_html=True)
 
@@ -3799,7 +3799,7 @@ if st.session_state.chapter == 62:
 
     st.code(code65, language="python")
 
-    st.markdown("""<div class="section-title">🧠 Did you menage to finish it? Do you want next?</div>""", unsafe_allow_html=True)
+    st.markdown("""<div class="section-title">🧠 Did you manage to finish it? Ready for the next task?</div>""", unsafe_allow_html=True)
 
     if st.button("Yes", key="ch63_next"):
         st.session_state.chapter = 63
@@ -3809,7 +3809,7 @@ if st.session_state.chapter == 62:
 if st.session_state.chapter == 63:
     chapter(20,
             "Great—here's the next task for you.",
-            "Try to finish it on your own. When you're done or stuck press 'Next' to see the resoult.")
+            "Try to finish it on your own. When you're done or stuck press 'Next' to see the result.")
     
     st.markdown("""<div class="section-title">💡 Task 9: """, unsafe_allow_html=True)
 
@@ -3840,7 +3840,7 @@ if st.session_state.chapter == 64:
             cursor = conn.cursor()
 
             cursor.execute(
-                "SELECT available FROM books WHERE book_id = ?",
+                "SELECT available FROM books WHERE id = ?",
                 (book_id,)
             )
             book = cursor.fetchone()
@@ -3852,7 +3852,7 @@ if st.session_state.chapter == 64:
                 raise TransactionError("Book is not available.")
 
             cursor.execute(
-                "SELECT membership_type FROM members WHERE member_id = ?",
+                "SELECT membership_type FROM members WHERE id = ?",
                 (member_id,)
             )
             member = cursor.fetchone()
@@ -3860,14 +3860,14 @@ if st.session_state.chapter == 64:
             if member is None:
                 raise TransactionError("Member does not exist.")
 
-            membership_type = member[0].lower()
-            loan_limit = 10 if membership_type == "premium" else 3
+            is_premium = member[0]
+            loan_limit = 10 if is_premium == 1 else 3
 
             cursor.execute(
                 """
                 SELECT COUNT(*)
                 FROM loans
-                WHERE member_id = ? AND returned_date IS NULL
+                WHERE member_id = ? AND returned_date = 0
                 """,
                 (member_id,)
             )
@@ -3889,7 +3889,7 @@ if st.session_state.chapter == 64:
                 )
 
                 cursor.execute(
-                    "UPDATE books SET available = 0 WHERE book_id = ?",
+                    "UPDATE books SET available = 0 WHERE id = ?",
                     (book_id,)
                 )
                 conn.commit()
@@ -3905,7 +3905,7 @@ if st.session_state.chapter == 64:
                 """
                 SELECT book_id, due_date, returned_date
                 FROM loans
-                WHERE loan_id = ?
+                WHERE id = ?
                 """,
                 (loan_id,)
             )
@@ -3914,7 +3914,7 @@ if st.session_state.chapter == 64:
             if loan is None:
                 raise TransactionError("Loan does not exist.")
 
-            if loan[2] is not None:
+            if loan[2] = 1:
                 raise TransactionError("Book has already been returned.")
 
             book_id, due_date_str, _ = loan
@@ -3926,8 +3926,8 @@ if st.session_state.chapter == 64:
                 cursor.execute(
                     """
                     UPDATE loans
-                    SET returned_date = ?
-                    WHERE loan_id = ?
+                    SET returned = ?
+                    WHERE id = ?
                     """,
                     (return_date.isoformat(), loan_id)
                 )
@@ -3935,7 +3935,7 @@ if st.session_state.chapter == 64:
                     """
                     UPDATE books
                     SET available = 1
-                    WHERE book_id = ?
+                    WHERE id = ?
                     """,
                     (book_id,)
                     )
